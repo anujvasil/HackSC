@@ -13,6 +13,8 @@
 		54847DD823E60EA9006A885C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54847DD623E60EA9006A885C /* Main.storyboard */; };
 		54847DDA23E60EAB006A885C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54847DD923E60EAB006A885C /* Assets.xcassets */; };
 		54847DDD23E60EAB006A885C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54847DDB23E60EAB006A885C /* LaunchScreen.storyboard */; };
+		54847DE523E610AF006A885C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54847DE423E610AF006A885C /* GoogleService-Info.plist */; };
+		F24D11BB116E056C6B98671F /* Pods_Straw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81CCD92EADFEC99A7B0D9F9 /* Pods_Straw.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		54847DD923E60EAB006A885C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54847DDC23E60EAB006A885C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54847DDE23E60EAB006A885C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54847DE423E610AF006A885C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B63C03D62DA30D7BACB7EC5 /* Pods-Straw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Straw.release.xcconfig"; path = "Target Support Files/Pods-Straw/Pods-Straw.release.xcconfig"; sourceTree = "<group>"; };
+		AACBB265D21841119356854D /* Pods-Straw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Straw.debug.xcconfig"; path = "Target Support Files/Pods-Straw/Pods-Straw.debug.xcconfig"; sourceTree = "<group>"; };
+		F81CCD92EADFEC99A7B0D9F9 /* Pods_Straw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Straw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24D11BB116E056C6B98671F /* Pods_Straw.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CFEF846D49D026DB2182601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F81CCD92EADFEC99A7B0D9F9 /* Pods_Straw.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C211CD593F9ABB4BD1E406E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AACBB265D21841119356854D /* Pods-Straw.debug.xcconfig */,
+				6B63C03D62DA30D7BACB7EC5 /* Pods-Straw.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		54847DC423E60EA9006A885C = {
 			isa = PBXGroup;
 			children = (
 				54847DCF23E60EA9006A885C /* Straw */,
 				54847DCE23E60EA9006A885C /* Products */,
+				3C211CD593F9ABB4BD1E406E /* Pods */,
+				1CFEF846D49D026DB2182601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +90,7 @@
 				54847DD923E60EAB006A885C /* Assets.xcassets */,
 				54847DDB23E60EAB006A885C /* LaunchScreen.storyboard */,
 				54847DDE23E60EAB006A885C /* Info.plist */,
+				54847DE423E610AF006A885C /* GoogleService-Info.plist */,
 			);
 			path = Straw;
 			sourceTree = "<group>";
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54847DE123E60EAB006A885C /* Build configuration list for PBXNativeTarget "Straw" */;
 			buildPhases = (
+				5171E2C3CA1FBD5E8A8C79BD /* [CP] Check Pods Manifest.lock */,
 				54847DC923E60EA9006A885C /* Sources */,
 				54847DCA23E60EA9006A885C /* Frameworks */,
 				54847DCB23E60EA9006A885C /* Resources */,
+				1CA2235938938B832D33B676 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				54847DDD23E60EAB006A885C /* LaunchScreen.storyboard in Resources */,
+				54847DE523E610AF006A885C /* GoogleService-Info.plist in Resources */,
 				54847DDA23E60EAB006A885C /* Assets.xcassets in Resources */,
 				54847DD823E60EA9006A885C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA2235938938B832D33B676 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Straw/Pods-Straw-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Straw/Pods-Straw-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Straw/Pods-Straw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5171E2C3CA1FBD5E8A8C79BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Straw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54847DC923E60EA9006A885C /* Sources */ = {
@@ -282,6 +355,7 @@
 		};
 		54847DE223E60EAB006A885C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACBB265D21841119356854D /* Pods-Straw.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +373,7 @@
 		};
 		54847DE323E60EAB006A885C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B63C03D62DA30D7BACB7EC5 /* Pods-Straw.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
