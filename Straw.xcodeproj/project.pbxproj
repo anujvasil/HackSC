@@ -7,84 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54B9F82423E559A300E8CE6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9F82323E559A300E8CE6A /* AppDelegate.swift */; };
-		54B9F82623E559A300E8CE6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9F82523E559A300E8CE6A /* SceneDelegate.swift */; };
-		54B9F82823E559A300E8CE6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9F82723E559A300E8CE6A /* ContentView.swift */; };
-		54B9F82A23E559A600E8CE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B9F82923E559A600E8CE6A /* Assets.xcassets */; };
-		54B9F82D23E559A600E8CE6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B9F82C23E559A600E8CE6A /* Preview Assets.xcassets */; };
-		54B9F83023E559A600E8CE6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B9F82E23E559A600E8CE6A /* LaunchScreen.storyboard */; };
+		54C5CC6C23E5926A00CDB4BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5CC6B23E5926A00CDB4BA /* AppDelegate.swift */; };
+		54C5CC6E23E5926A00CDB4BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5CC6D23E5926A00CDB4BA /* SceneDelegate.swift */; };
+		54C5CC7023E5926A00CDB4BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5CC6F23E5926A00CDB4BA /* ViewController.swift */; };
+		54C5CC7323E5926A00CDB4BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C5CC7123E5926A00CDB4BA /* Main.storyboard */; };
+		54C5CC7523E5926B00CDB4BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C5CC7423E5926B00CDB4BA /* Assets.xcassets */; };
+		54C5CC7823E5926B00CDB4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C5CC7623E5926B00CDB4BA /* LaunchScreen.storyboard */; };
+		54C5CC8023E592CC00CDB4BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54C5CC7F23E592CC00CDB4BA /* GoogleService-Info.plist */; };
+		A3AA8BD17DB803AC30609F03 /* Pods_Straw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8B15373662DBE4FEFB5842 /* Pods_Straw.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54B9F82023E559A300E8CE6A /* Straw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Straw.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54B9F82323E559A300E8CE6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54B9F82523E559A300E8CE6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54B9F82723E559A300E8CE6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		54B9F82923E559A600E8CE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54B9F82C23E559A600E8CE6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		54B9F82F23E559A600E8CE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		54B9F83123E559A600E8CE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5461B78DB949148967109DA1 /* Pods-Straw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Straw.debug.xcconfig"; path = "Target Support Files/Pods-Straw/Pods-Straw.debug.xcconfig"; sourceTree = "<group>"; };
+		54C5CC6823E5926A00CDB4BA /* Straw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Straw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C5CC6B23E5926A00CDB4BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54C5CC6D23E5926A00CDB4BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54C5CC6F23E5926A00CDB4BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54C5CC7223E5926A00CDB4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54C5CC7423E5926B00CDB4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54C5CC7723E5926B00CDB4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54C5CC7923E5926B00CDB4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C5CC7F23E592CC00CDB4BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7BCFD34967CD42CA696EEA1 /* Pods-Straw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Straw.release.xcconfig"; path = "Target Support Files/Pods-Straw/Pods-Straw.release.xcconfig"; sourceTree = "<group>"; };
+		FB8B15373662DBE4FEFB5842 /* Pods_Straw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Straw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54B9F81D23E559A300E8CE6A /* Frameworks */ = {
+		54C5CC6523E5926A00CDB4BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AA8BD17DB803AC30609F03 /* Pods_Straw.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54B9F81723E559A300E8CE6A = {
+		288EB0A36A6C0FF87A5C5EF5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				54B9F82223E559A300E8CE6A /* Straw */,
-				54B9F82123E559A300E8CE6A /* Products */,
+				5461B78DB949148967109DA1 /* Pods-Straw.debug.xcconfig */,
+				F7BCFD34967CD42CA696EEA1 /* Pods-Straw.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54C5CC5F23E5926A00CDB4BA = {
+			isa = PBXGroup;
+			children = (
+				54C5CC6A23E5926A00CDB4BA /* Straw */,
+				54C5CC6923E5926A00CDB4BA /* Products */,
+				288EB0A36A6C0FF87A5C5EF5 /* Pods */,
+				B0E9B4E83BD4E07A25B96968 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		54B9F82123E559A300E8CE6A /* Products */ = {
+		54C5CC6923E5926A00CDB4BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54B9F82023E559A300E8CE6A /* Straw.app */,
+				54C5CC6823E5926A00CDB4BA /* Straw.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54B9F82223E559A300E8CE6A /* Straw */ = {
+		54C5CC6A23E5926A00CDB4BA /* Straw */ = {
 			isa = PBXGroup;
 			children = (
-				54B9F82323E559A300E8CE6A /* AppDelegate.swift */,
-				54B9F82523E559A300E8CE6A /* SceneDelegate.swift */,
-				54B9F82723E559A300E8CE6A /* ContentView.swift */,
-				54B9F82923E559A600E8CE6A /* Assets.xcassets */,
-				54B9F82E23E559A600E8CE6A /* LaunchScreen.storyboard */,
-				54B9F83123E559A600E8CE6A /* Info.plist */,
-				54B9F82B23E559A600E8CE6A /* Preview Content */,
+				54C5CC6B23E5926A00CDB4BA /* AppDelegate.swift */,
+				54C5CC6D23E5926A00CDB4BA /* SceneDelegate.swift */,
+				54C5CC6F23E5926A00CDB4BA /* ViewController.swift */,
+				54C5CC7123E5926A00CDB4BA /* Main.storyboard */,
+				54C5CC7423E5926B00CDB4BA /* Assets.xcassets */,
+				54C5CC7623E5926B00CDB4BA /* LaunchScreen.storyboard */,
+				54C5CC7F23E592CC00CDB4BA /* GoogleService-Info.plist */,
+				54C5CC7923E5926B00CDB4BA /* Info.plist */,
 			);
 			path = Straw;
 			sourceTree = "<group>";
 		};
-		54B9F82B23E559A600E8CE6A /* Preview Content */ = {
+		B0E9B4E83BD4E07A25B96968 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				54B9F82C23E559A600E8CE6A /* Preview Assets.xcassets */,
+				FB8B15373662DBE4FEFB5842 /* Pods_Straw.framework */,
 			);
-			path = "Preview Content";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54B9F81F23E559A300E8CE6A /* Straw */ = {
+		54C5CC6723E5926A00CDB4BA /* Straw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54B9F83423E559A600E8CE6A /* Build configuration list for PBXNativeTarget "Straw" */;
+			buildConfigurationList = 54C5CC7C23E5926B00CDB4BA /* Build configuration list for PBXNativeTarget "Straw" */;
 			buildPhases = (
-				54B9F81C23E559A300E8CE6A /* Sources */,
-				54B9F81D23E559A300E8CE6A /* Frameworks */,
-				54B9F81E23E559A300E8CE6A /* Resources */,
+				B580DA0D943C85C744857792 /* [CP] Check Pods Manifest.lock */,
+				54C5CC6423E5926A00CDB4BA /* Sources */,
+				54C5CC6523E5926A00CDB4BA /* Frameworks */,
+				54C5CC6623E5926A00CDB4BA /* Resources */,
+				42F250BD543AFFDC9800B4DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -92,25 +114,25 @@
 			);
 			name = Straw;
 			productName = Straw;
-			productReference = 54B9F82023E559A300E8CE6A /* Straw.app */;
+			productReference = 54C5CC6823E5926A00CDB4BA /* Straw.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54B9F81823E559A300E8CE6A /* Project object */ = {
+		54C5CC6023E5926A00CDB4BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Anuj Vasil";
 				TargetAttributes = {
-					54B9F81F23E559A300E8CE6A = {
+					54C5CC6723E5926A00CDB4BA = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 54B9F81B23E559A300E8CE6A /* Build configuration list for PBXProject "Straw" */;
+			buildConfigurationList = 54C5CC6323E5926A00CDB4BA /* Build configuration list for PBXProject "Straw" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +140,98 @@
 				en,
 				Base,
 			);
-			mainGroup = 54B9F81723E559A300E8CE6A;
-			productRefGroup = 54B9F82123E559A300E8CE6A /* Products */;
+			mainGroup = 54C5CC5F23E5926A00CDB4BA;
+			productRefGroup = 54C5CC6923E5926A00CDB4BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54B9F81F23E559A300E8CE6A /* Straw */,
+				54C5CC6723E5926A00CDB4BA /* Straw */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54B9F81E23E559A300E8CE6A /* Resources */ = {
+		54C5CC6623E5926A00CDB4BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54B9F83023E559A600E8CE6A /* LaunchScreen.storyboard in Resources */,
-				54B9F82D23E559A600E8CE6A /* Preview Assets.xcassets in Resources */,
-				54B9F82A23E559A600E8CE6A /* Assets.xcassets in Resources */,
+				54C5CC7823E5926B00CDB4BA /* LaunchScreen.storyboard in Resources */,
+				54C5CC8023E592CC00CDB4BA /* GoogleService-Info.plist in Resources */,
+				54C5CC7523E5926B00CDB4BA /* Assets.xcassets in Resources */,
+				54C5CC7323E5926A00CDB4BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42F250BD543AFFDC9800B4DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Straw/Pods-Straw-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Straw/Pods-Straw-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Straw/Pods-Straw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B580DA0D943C85C744857792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Straw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		54B9F81C23E559A300E8CE6A /* Sources */ = {
+		54C5CC6423E5926A00CDB4BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54B9F82423E559A300E8CE6A /* AppDelegate.swift in Sources */,
-				54B9F82623E559A300E8CE6A /* SceneDelegate.swift in Sources */,
-				54B9F82823E559A300E8CE6A /* ContentView.swift in Sources */,
+				54C5CC7023E5926A00CDB4BA /* ViewController.swift in Sources */,
+				54C5CC6C23E5926A00CDB4BA /* AppDelegate.swift in Sources */,
+				54C5CC6E23E5926A00CDB4BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		54B9F82E23E559A600E8CE6A /* LaunchScreen.storyboard */ = {
+		54C5CC7123E5926A00CDB4BA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				54B9F82F23E559A600E8CE6A /* Base */,
+				54C5CC7223E5926A00CDB4BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54C5CC7623E5926B00CDB4BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C5CC7723E5926B00CDB4BA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +239,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		54B9F83223E559A600E8CE6A /* Debug */ = {
+		54C5CC7A23E5926B00CDB4BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		54B9F83323E559A600E8CE6A /* Release */ = {
+		54C5CC7B23E5926B00CDB4BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,13 +353,12 @@
 			};
 			name = Release;
 		};
-		54B9F83523E559A600E8CE6A /* Debug */ = {
+		54C5CC7D23E5926B00CDB4BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5461B78DB949148967109DA1 /* Pods-Straw.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Straw/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Straw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,17 +367,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = anujvasil.Straw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		54B9F83623E559A600E8CE6A /* Release */ = {
+		54C5CC7E23E5926B00CDB4BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BCFD34967CD42CA696EEA1 /* Pods-Straw.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Straw/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Straw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,32 +385,32 @@
 				PRODUCT_BUNDLE_IDENTIFIER = anujvasil.Straw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54B9F81B23E559A300E8CE6A /* Build configuration list for PBXProject "Straw" */ = {
+		54C5CC6323E5926A00CDB4BA /* Build configuration list for PBXProject "Straw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54B9F83223E559A600E8CE6A /* Debug */,
-				54B9F83323E559A600E8CE6A /* Release */,
+				54C5CC7A23E5926B00CDB4BA /* Debug */,
+				54C5CC7B23E5926B00CDB4BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54B9F83423E559A600E8CE6A /* Build configuration list for PBXNativeTarget "Straw" */ = {
+		54C5CC7C23E5926B00CDB4BA /* Build configuration list for PBXNativeTarget "Straw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54B9F83523E559A600E8CE6A /* Debug */,
-				54B9F83623E559A600E8CE6A /* Release */,
+				54C5CC7D23E5926B00CDB4BA /* Debug */,
+				54C5CC7E23E5926B00CDB4BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 54B9F81823E559A300E8CE6A /* Project object */;
+	rootObject = 54C5CC6023E5926A00CDB4BA /* Project object */;
 }
